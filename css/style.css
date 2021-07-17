@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #000;
+    color:#fff;
+    background-image: url(../assets/bg.jpg);
+}
+
+#container {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;    
+    justify-content: right;
+    
+}
+
+#container1 {
+    height: 500px;
+    width: 650px;
+    text-align: center; 
+    background-color: #000;   
+    border-radius: 5%;
+    padding: 10px;
+}
+
+#title {
+    padding: 20px;    
+    color:rgb(170, 0, 0);
+    font-size: 80px;    
+    font-family: 'Encode Sans SC', sans-serif;    
+}
+
+#subtitle {
+    font-family: 'Encode Sans SC', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#description {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#desconto {
+    color: rgb(170, 0, 0);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#cadastro {
+    font-family: 'Encode Sans SC', sans-serif;
+    margin-bottom: 20px;
+}
+
+#resultado {
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.section-container {
+    padding: 2rem;
+    width: 50vw;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background: #000;
+    border-radius: 25px;
+    padding: 25px;
+    height: 230px;
+    width: 500px;  
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;    
+}
+
+header {
+    height: 10vh;
+    padding: 10px;
+    background-color: #000;
+}
+
+
+input {
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;   
+    color: #000;
+    font-weight: bold;
+
+}
+
+input[type="submit"] {
+    background-color: rgb(170, 0, 0);
+    color: #fff;
+    width: 102%;
+    height: 40px;
+}
+
+form {
+    display:grid
+}
+
+footer{
+    height: 10vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+img {
+    max-width: 500px;
+}
+
+footer img {
+    max-width: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+/* width: 700px;
+max-width: 700px;
+height: 800px; */
